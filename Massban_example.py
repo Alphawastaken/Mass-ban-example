@@ -10,14 +10,15 @@ token = 'YOUR BOTS TOKEN'
 
 client = commands.Bot(command_prefix = ';')
 
+
+
 @client.event
 async def on_ready():
     print('Online')
     
-
-
-
-
+    
+    
+    
 # Mass Banning Users that have a specific role
 @client.command()
 @commands.is_owner()
@@ -29,6 +30,8 @@ async def massroleban(ctx,rolename: discord.Role):
         except:
             pass
 
+        
+        
 #Mass Banning all discord server Users
 @client.command()
 @commands.is_owner()
@@ -39,4 +42,6 @@ async def massban(ctx):
             await ctx.send(f"All users have been banned")
         except:
             pass
+        
+        
 client.run(token, bot = True)
