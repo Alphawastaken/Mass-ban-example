@@ -8,6 +8,8 @@ from discord.ext import commands
 
 token = 'YOUR BOTS TOKEN'
 
+client = discord.Client()
+
 client = commands.Bot(command_prefix = ';')
 
 
@@ -44,4 +46,4 @@ async def massban(ctx):
             pass
         
         
-client.run(token, bot = True)
+client.run(token)
