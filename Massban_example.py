@@ -14,7 +14,7 @@ client = commands.Bot(command_prefix = ';')
 
 @client.event
 async def on_ready():
-    print('Online')
+    print('Bot is online')
     
     
     
