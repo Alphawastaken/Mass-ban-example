@@ -1,6 +1,6 @@
 # WARNING!
 # DO NOT use this script for malicious purposes!
-# Author:Alpha®#0001
+# Author:Alpha®#2242
 
 import discord
 import asyncio
@@ -17,6 +17,7 @@ client = commands.Bot(command_prefix = ';')
 @client.event
 async def on_ready():
     print('Bot is online')
+    print('Yeah ik i used the mass ban example even though i was told not to....')
     
     
     
